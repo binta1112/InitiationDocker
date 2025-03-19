@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #3a094c;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #f3e8e8;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .photo {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    box-shadow: 7px 7px 10px #000;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 250px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .photo p {
+    font-size: 14px;
+    color: #555;
+    max-width: 100%;
+  }
+  
